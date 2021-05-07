@@ -1,0 +1,3 @@
+arm_vars.sh
+.terraform*
+key.pem
