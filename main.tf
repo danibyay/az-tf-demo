@@ -65,6 +65,12 @@ resource "azurerm_virtual_machine" "demo-vm" {
     version   = "latest"
   }
 
+  tags = {
+    "Name" = "Terraform Example"
+    "Team" = "DOUniversity"
+    "Owner" = "Daniela/Monserrat"
+  }
+
 }
 
 
