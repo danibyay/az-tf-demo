@@ -2,10 +2,6 @@ data "azurerm_resource_group" "daniela-rg" {
     name = "daniela-becerra"
 }
 
-#data "azurerm_resource_group" "subnet-rg" {
-#    name = "jorge-gongora"
-#}
-
 resource "azurerm_virtual_network" "vnet" {
   name                = "virtualNetwork1"
   location            = var.location

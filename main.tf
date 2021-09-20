@@ -66,7 +66,7 @@ resource "azurerm_virtual_machine" "demo-vm" {
   }
 
   tags = {
-    "Name" = "Terraform Example"
+    "Name" = "Terraform Example jajaja"
     "Team" = "DOUniversity"
     "Owner" = "Daniela/Monserrat"
   }
